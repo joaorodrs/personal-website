@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  background: black;
+}
+
+.navigationBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+
+.navigationBar a {
+  color: white;
+  margin-left: 22px;
+  transition: 0.3s;
+  padding: 0 8px;
+}
+
+.navigationBar a:hover {
+  background: white;
+  border-radius: 4px;
+  color: black;
+}
