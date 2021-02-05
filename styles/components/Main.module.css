@@ -12,7 +12,6 @@
 }
 
 .navigationBar a {
-  color: white;
   margin-left: 22px;
   transition: 0.3s;
   padding: 0 8px;
@@ -22,4 +21,42 @@
   background: white;
   border-radius: 4px;
   color: black;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.mainSection p {
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.2em;
+  color: #FFFFFF;
+}
+
+.mainSection h1 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 300px;
+  line-height: 300px;
+  color: #FFFFFF;
+  text-shadow: 15px 0px 0px #416773;
+  user-select: none;
+  position: absolute;
+}
+
+.iconsContainer {
+  margin-top: 150px;
+}
+
+.iconRow svg {
+  margin-left: 5px;
+  margin-right: 5px;
 }
