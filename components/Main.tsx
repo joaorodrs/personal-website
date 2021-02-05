@@ -15,10 +15,10 @@ const Main: React.FC = () => {
   return (
     <section className={styles.container}>
       <nav className={styles.navigationBar}>
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#knowledge">Knowledge</a>
-        <a href="#contato">Contato</a>
+        <a href="/">Início</a>
+        <a href="/">Sobre</a>
+        <a href="/">Knowledge</a>
+        <a href="/">Contato</a>
       </nav>
 
       <div className={styles.mainSection}>

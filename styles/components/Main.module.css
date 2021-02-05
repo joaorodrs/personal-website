@@ -7,19 +7,23 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-top: 30px;
+  padding: 20px 0;
   padding-right: 50px;
+  position: fixed;
+  background: black;
+  border-bottom: 1px solid #222;
+  width: 100%;
 }
 
 .navigationBar a {
   margin-left: 22px;
   transition: 0.3s;
+  border-radius: 4px;
   padding: 0 8px;
 }
 
 .navigationBar a:hover {
   background: white;
-  border-radius: 4px;
   color: black;
 }
 
@@ -29,6 +33,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding-top: 40px;
 }
 
 .mainSection p {
