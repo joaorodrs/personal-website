@@ -1,5 +1,7 @@
 import styles from '../styles/components/Main.module.css'
 
+import { Link } from 'react-scroll'
+
 import { motion } from 'framer-motion'
 
 import {
@@ -15,11 +17,13 @@ const Main: React.FC = () => {
   return (
     <section className={styles.container}>
       <nav className={styles.navigationBar}>
-        <a href="/">Início</a>
-        <a href="/">Sobre</a>
-        <a href="/">Knowledge</a>
-        <a href="/">Contato</a>
+        <Link to="inicio" smooth>Início</Link>
+        <Link to="sobre" smooth>Sobre</Link>
+        <Link to="portfolio" smooth>Portfólio</Link>
+        <Link to="contato" smooth>Contato</Link>
       </nav>
+
+      <div id="inicio"></div>
 
       <div className={styles.mainSection}>
         <motion.p

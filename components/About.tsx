@@ -4,6 +4,7 @@ import Image from 'next/image'
 const About: React.FC = () => {
   return (
     <section className={styles.aboutContainer}>
+      <div id="sobre"></div>
       <div className={styles.aboutTitleContainer}>
         <h1>Sobre</h1>
       </div>
