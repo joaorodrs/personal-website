@@ -26,17 +26,9 @@ const Main: React.FC = () => {
       <div id="inicio"></div>
 
       <div className={styles.mainSection}>
-        <motion.p
-          animate={{
-            marginBottom: [150, 185, 150]
-          }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            times: [0, 1],
-            loop: Infinity,
-          }}
-        >JOÃO PAULO</motion.p>
+        <div className={styles.nameWrapper}>
+          <p>JOÃO PAULO</p>
+        </div>
         <motion.h1
           animate={{
             marginTop: [-800, -75],
@@ -48,6 +40,7 @@ const Main: React.FC = () => {
             times: [0, 1]
           }}
         >J</motion.h1>
+        <h1 style={{ opacity: 0, position: 'relative' }}>J</h1>
         <div className={styles.iconsContainer}>
           <div className={styles.iconRow}>
             <IoLogoJavascript color="#1C2B30" size={40} />
