@@ -36,13 +36,13 @@ const About: React.FC = () => {
 
       <div className={styles.techLogosContainer}>
         <SiNextDotJs size={35} color="white"/>
-        <SiRedux size={35} color="white"/>
-        <SiReact size={35} color="white"/>
-        <SiGit size={35} color="white"/>
-        <SiTypescript size={35} color="white"/>
-        <SiCss3 size={35} color="white"/>
-        <SiHtml5 size={35} color="white"/>
-        <SiNodeDotJs size={35} color="white"/>
+        <SiRedux size={35} color="#764ABC"/>
+        <SiReact size={35} color="#61DAFB"/>
+        <SiGit size={35} color="#F54D27"/>
+        <SiTypescript size={35} color="#3178C6"/>
+        <SiCss3 size={35} color="#254BDD"/>
+        <SiHtml5 size={35} color="#DD4B25"/>
+        <SiNodeDotJs size={35} color="#659A60"/>
       </div>
 
       <div className={styles.descriptionContainer}>

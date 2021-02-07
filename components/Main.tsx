@@ -43,14 +43,14 @@ const Main: React.FC = () => {
         <h1 style={{ opacity: 0, position: 'relative' }}>J</h1>
         <div className={styles.iconsContainer}>
           <div className={styles.iconRow}>
-            <IoLogoJavascript color="#1C2B30" size={40} />
-            <IoLogoNodejs color="#1C2B30" size={40} />
-            <IoGitBranchOutline color="#1C2B30" size={40} />
+            <IoLogoJavascript color="#22123d" size={40} />
+            <IoLogoNodejs color="#22123d" size={40} />
+            <IoGitBranchOutline color="#22123d" size={40} />
           </div>
           <div className={styles.iconRow}>
-            <IoLogoHtml5 color="#1C2B30" size={40} />
-            <IoLogoCss3 color="#1C2B30" size={40} />
-            <IoLogoReact color="#1C2B30" size={40} />
+            <IoLogoHtml5 color="#22123d" size={40} />
+            <IoLogoCss3 color="#22123d" size={40} />
+            <IoLogoReact color="#22123d" size={40} />
           </div>
         </div>
       </div>
