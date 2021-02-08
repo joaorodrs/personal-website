@@ -13,7 +13,7 @@
   background: black;
   border-bottom: 1px solid #222;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navigationBar a {
@@ -57,7 +57,7 @@
   text-shadow: 15px 0px 0px #673AB7;
   user-select: none;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
 }
 
 .iconRow svg {
